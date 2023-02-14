@@ -1,4 +1,6 @@
-<?php namespace Kyzegs\Model;
+<?php
+
+namespace Kyzegs\Model;
 
 class MassAssignmentException extends \RuntimeException
 {

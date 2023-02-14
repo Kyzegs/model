@@ -7,9 +7,9 @@ class ModelStub extends Model
     protected $hidden = ['password'];
 
     protected $casts = [
-        'age'   => 'integer',
+        'age' => 'integer',
         'score' => 'float',
-        'data'  => 'array',
+        'data' => 'array',
         'active' => 'bool',
         'secret' => 'string',
         'count' => 'int',
