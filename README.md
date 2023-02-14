@@ -1,7 +1,7 @@
 Model
 =====
 
-[![Build Status](http://img.shields.io/travis/jenssegers/model.svg)](https://travis-ci.org/jenssegers/model) [![Coverage Status](http://img.shields.io/coveralls/jenssegers/model.svg)](https://coveralls.io/r/jenssegers/model)
+[![Build Status](http://img.shields.io/travis/kyzegs/model.svg)](https://travis-ci.org/kyzegs/model) [![Coverage Status](http://img.shields.io/coveralls/kyzegs/model.svg)](https://coveralls.io/r/kyzegs/model)
 
 This model provides an Laravel eloquent-like base class that can be used to build custom models in Laravel or other frameworks.
 
@@ -23,7 +23,7 @@ Installation
 Install using composer:
 
 ```bash
-composer require jenssegers/model
+composer require kyzegs/model
 ```
 
 Example
@@ -31,7 +31,7 @@ Example
 
 ```php
 
-use Jenssegers\Model\Model;
+use Kyzegs\Model\Model;
 
 class User extends Model {
 

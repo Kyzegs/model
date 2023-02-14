@@ -236,7 +236,7 @@ class ModelTest extends TestCase
 
     public function testTotallyGuarded()
     {
-        $this->expectException('Jenssegers\Model\MassAssignmentException');
+        $this->expectException('Kyzegs\Model\MassAssignmentException');
 
         $model = new ModelStub();
         $model->guard(['*']);
