@@ -1,4 +1,4 @@
-<?php namespace Jenssegers\Model;
+<?php namespace Kyzegs\Model;
 
 class MassAssignmentException extends \RuntimeException
 {

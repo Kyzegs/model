@@ -1,13 +1,21 @@
 {
-    "name": "jenssegers/model",
+    "name": "kyzegs/model",
     "description": "An Laravel eloquent-like model class, for Laravel and other frameworks",
-    "keywords": ["laravel", "eloquent", "model"],
-    "homepage": "https://github.com/jenssegers/model",
-    "license" : "MIT",
+    "keywords": [
+        "laravel",
+        "eloquent",
+        "model"
+    ],
+    "homepage": "https://github.com/kyzegs/model",
+    "license": "MIT",
     "authors": [
         {
             "name": "Jens Segers",
             "homepage": "https://jenssegers.com"
+        },
+        {
+            "name": "Sebastiaan \"Sebastiaan\" Zegers",
+            "homepage": "https://kyzegs.com"
         }
     ],
     "require": {
@@ -20,10 +28,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Jenssegers\\Model\\": "src/"
+            "Kyzegs\\Model\\": "src/"
         }
     },
     "autoload-dev": {
-        "classmap": ["tests/stubs"]
+        "classmap": [
+            "tests/stubs"
+        ]
     }
 }

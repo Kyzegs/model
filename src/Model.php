@@ -1,4 +1,4 @@
-<?php namespace Jenssegers\Model;
+<?php namespace Kyzegs\Model;
 
 use ArrayAccess;
 use Illuminate\Contracts\Support\Arrayable;
@@ -98,7 +98,7 @@ abstract class Model implements ArrayAccess, Arrayable, Jsonable, JsonSerializab
      * @param  array  $attributes
      * @return $this
      *
-     * @throws \Jenssegers\Model\MassAssignmentException
+     * @throws \Kyzegs\Model\MassAssignmentException
      */
     public function fill(array $attributes)
     {
@@ -156,7 +156,7 @@ abstract class Model implements ArrayAccess, Arrayable, Jsonable, JsonSerializab
      *
      * @param  array  $attributes
      * @param  bool   $exists
-     * @return \Jenssegers\Model\Model
+     * @return \Kyzegs\Model\Model
      */
     public function newInstance($attributes = [])
     {
@@ -771,7 +771,7 @@ abstract class Model implements ArrayAccess, Arrayable, Jsonable, JsonSerializab
      * Clone the model into a new, non-existing instance.
      *
      * @param  array|null  $except
-     * @return \Jenssegers\Model\Model
+     * @return \Kyzegs\Model\Model
      */
     public function replicate(array $except = null)
     {
