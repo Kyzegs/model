@@ -24,7 +24,8 @@
     },
     "require-dev": {
         "php-coveralls/php-coveralls": "*",
-        "phpunit/phpunit": "*"
+        "phpunit/phpunit": "*",
+        "laravel/pint": "^1.5"
     },
     "autoload": {
         "psr-4": {
